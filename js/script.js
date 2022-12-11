@@ -1,3 +1,4 @@
+// BREND LOGO SECTION START
 $(document).ready(function(){
     $('.brend-logo').slick({
         slidesToShow: 5,
@@ -36,14 +37,11 @@ $(document).ready(function(){
               slidesToScroll: 1
             }
           }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
       });
+// BREND LOGO SECTION END
 
-      // brands logo
-
+// CLIENT SECTION START
       $('.wrapper-slide-text').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -83,15 +81,12 @@ $(document).ready(function(){
               slidesToScroll: 1
             }
           }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
       });
+// CLIENT SECTION END
 
 
-
-
+// TEAN SECTION STRAT
       $('.team-member-wrapper').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -125,18 +120,13 @@ $(document).ready(function(){
               slidesToScroll: 1
             }
           }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
       });
-
-      
-})
-
+});
+// TEAN SECTION END
 
 
-
+// HEADER SECTION START
 $(window).scroll(function () {
   console.log($(window).scrollTop());
 
@@ -152,6 +142,7 @@ $(window).scroll(function () {
       $(".top-button").fadeOut();
     }
 });
+// HEADER SECTION END
 
 
 // BOTTOM TO TOP BUTTON CODE:--

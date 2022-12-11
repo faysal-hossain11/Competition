@@ -423,7 +423,7 @@ nav.sticky {
     left: 2%;
     border-radius: 142px;
     z-index: -1;
-    transition: all .4s linear;
+    transition: all linear .4s;
 }
 .feature-box-item i {
     font-size: 40px;
