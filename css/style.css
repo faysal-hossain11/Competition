@@ -33,8 +33,6 @@ html {
 }
 body {
   overflow-x: hidden;
-  /* min-height: 100vh;
-    width: 100vw; */
 }
 /******* COMMON CSS END  *********/
 
@@ -319,7 +317,6 @@ nav.sticky {
 /******* FEATURES SECTION START *******/
 #features {
   padding: 100px 0;
-  /* background: url(../images/Untitled\ design.png); */
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -499,7 +496,6 @@ nav.sticky {
     transform: translateY(400px);
     margin-left: 200px;
     transform: scale(3);
-    /* transform: rotateY('angle'); */
   }
 }
 
@@ -768,8 +764,9 @@ span.dollor {
 .politice4 {
   padding: 77px 20px;
 }
-
 /******* POLITICE SECTION END  *******/
+
+
 /******* FAQ  START *******/
 #faq {
   padding: 100px 0;
@@ -794,7 +791,6 @@ button.accordion-button.collapsed {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  /* background: linear-gradient(#e8f3d6, #e2f6c1); */
 }
 .review-client {
   margin-top: 50px;
@@ -1040,18 +1036,9 @@ label.form-label {
 .form-input {
   padding: 13px;
 }
-/* .contactbtn {
-  margin-bottom: 20px;
-  background: linear-gradient(#f25781, #872ede);
-  color: #ffffff;
-  padding: 18px 20px;
-  border-radius: 10px;
-  margin-right: 70px;
-} */
 .contactbtn {
   margin-bottom: 20px;
   background: linear-gradient(#fbfbfb, #e2e2e2);
-  /* color: #ffffff; */
   padding: 18px 20px;
   border-radius: 10px;
   margin-right: 70px;
