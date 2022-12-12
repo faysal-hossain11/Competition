@@ -395,7 +395,7 @@ nav.sticky {
     overflow: hidden;
     border-radius: 5px;
     background: rgb(255, 255, 255);
-    transition: all .4s linear;
+    transition: all .4s linear !important;
 }
 .feature-top{
     margin-top: 30px;
@@ -423,7 +423,7 @@ nav.sticky {
     left: 2%;
     border-radius: 142px;
     z-index: -1;
-    transition: all linear .4s;
+    transition: all linear .4s !important;
 }
 .feature-box-item i {
     font-size: 40px;
@@ -433,7 +433,7 @@ nav.sticky {
     background: linear-gradient( #872ede, #f25781);
     border-radius: 50px;
     color: #fff;
-    transition: all linear .3s;
+    transition: all linear .3s !important;
 }
 .feature-box-item h3 {
     font-size: 24px;
@@ -642,13 +642,13 @@ nav.sticky {
 .pricing-text h4 {
     font-size: 22px;
     padding-top: 9px;
-    transition: all linear .3s;
+    transition: all linear .4s !important ;
 }
 .pricing-text {
     text-align: center;
     margin-top: -8px;
     background: linear-gradient( #872ede, #f25781);
-    transition: all linear .3s;
+    transition: all linear .4s !important;
     color: #fff;
     border-radius: 105px 0px;
 }
@@ -975,11 +975,11 @@ button.slick-prev.slick-arrow {
     margin-bottom: 25px;
 }
 .social a {
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     background: linear-gradient(#872ede, #f25781);
-    line-height: 45px;
-    font-size: 25px;
+    line-height: 40px;
+    font-size: 22px;
     border-radius: 50%;
     color: #fff;
 }
