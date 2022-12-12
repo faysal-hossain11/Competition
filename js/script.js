@@ -1,130 +1,128 @@
 // BREND LOGO SECTION START
-$(document).ready(function(){
-    $('.brend-logo').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        autoplay: true,
-        pauseOnHover: false,
-        autoplaySpeed: 2000,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 576,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
-// BREND LOGO SECTION END
+$(document).ready(function () {
+  $(".brend-logo").slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    pauseOnHover: false,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+  // BREND LOGO SECTION END
 
-// CLIENT SECTION START
-      $('.wrapper-slide-text').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-        arrows: false,
-        asNavFor: '.slide-wrapper-img'
-      });
-      $('.slide-wrapper-img').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.wrapper-slide-text',
-        autoplay: true,
-        centerMode: true,
-        focusOnSelect: true,
-        centerPadding: '0px',
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
-// CLIENT SECTION END
+  // CLIENT SECTION START
+  $(".wrapper-slide-text").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    arrows: false,
+    asNavFor: ".slide-wrapper-img",
+  });
+  $(".slide-wrapper-img").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: ".wrapper-slide-text",
+    autoplay: true,
+    centerMode: true,
+    focusOnSelect: true,
+    centerPadding: "0px",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+  // CLIENT SECTION END
 
-
-// TEAN SECTION STRAT
-      $('.team-member-wrapper').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        centerPadding: '0px',
-        arrows: true,
-        prevArrow: '.left',
-        nextArrow: '.right',
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
+  // TEAN SECTION STRAT
+  $(".team-member-wrapper").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerPadding: "0px",
+    arrows: true,
+    prevArrow: ".left",
+    nextArrow: ".right",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
 });
 // TEAN SECTION END
-
 
 // HEADER SECTION START
 $(window).scroll(function () {
@@ -136,28 +134,27 @@ $(window).scroll(function () {
     $(".menu").removeClass("nav-scroll");
   }
 
-    if ($(window).scrollTop() > 600) {
-      $(".top-button").fadeIn();
-    } else {
-      $(".top-button").fadeOut();
-    }
+  if ($(window).scrollTop() > 600) {
+    $(".top-button").fadeIn();
+  } else {
+    $(".top-button").fadeOut();
+  }
 });
 // HEADER SECTION END
 
-
 // BOTTOM TO TOP BUTTON CODE:--
-var btn = $('#button');
+var btn = $("#button");
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
-    btn.addClass('show');
+    btn.addClass("show");
   } else {
-    btn.removeClass('show');
+    btn.removeClass("show");
   }
 });
 
-btn.on('click', function(e) {
+btn.on("click", function (e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
+  $("html, body").animate({ scrollTop: 0 }, "300");
 });
 // BOTTOM TO TOP BUTTON CODE:--
