@@ -186,6 +186,11 @@ nav.sticky {
 }
 .banner-right img {
   animation: bounce 2s alternate infinite ease-in-out;
+    
+}
+.about-img img{
+  border-radius: 5px;
+    box-shadow: 0px 0px 6px 4px rgb(151 151 151 / 44%);
 }
 @keyframes bounce {
   0% {
@@ -528,6 +533,7 @@ nav.sticky {
   padding-right: 169px;
   font-size: 17px;
   color: #555;
+  text-align: justify;
 }
 .work-img {
   width: 20px;
@@ -574,7 +580,7 @@ nav.sticky {
   margin-top: 50px;
 }
 .politice-box:hover {
-  box-shadow: 1px 1px 13px 3px #acacff;
+  box-shadow: 1px 1px 13px 3px #efc4ff;
 }
 .pricing-box {
   box-shadow: 0px 0px 4px 0px rgb(242 87 129 / 20%);
@@ -744,8 +750,9 @@ span.dollor {
   text-align: center;
   padding: 50px 20px;
   background: #fff;
-  box-shadow: 1px 1px 11px 1px #cdcdff;
+  box-shadow: 1px 1px -3px 1px #fad3d7;
   border-radius: 10px;
+  transition: all linear 0.4s;
 }
 .politice-box h3 {
   font-size: 22px;
@@ -762,7 +769,7 @@ span.dollor {
   padding: 65px 20px;
 }
 .politice4 {
-  padding: 77px 20px;
+  padding: 63px 20px;
 }
 /******* POLITICE SECTION END  *******/
 
