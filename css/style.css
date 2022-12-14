@@ -80,9 +80,25 @@ nav.sticky {
   transition: all linear 0.4s;
   font-weight: 600;
   font-size: 18px;
+  position: relative;
 }
-.navbar-nav .nav-item .nav-link:hover {
-  color: #f39200;
+.navbar-nav .nav-item .nav-link::after{
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #fd4274;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link:hover::after {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
 }
 .nav-btn a {
   padding: 8px 30px;
@@ -190,7 +206,7 @@ nav.sticky {
 }
 .about-img img{
   border-radius: 5px;
-    box-shadow: 0px 0px 6px 4px rgb(151 151 151 / 44%);
+  box-shadow: 0px 0px 6px 4px rgb(151 151 151 / 44%);
 }
 @keyframes bounce {
   0% {
@@ -321,7 +337,7 @@ nav.sticky {
 
 /******* FEATURES SECTION START *******/
 #features {
-  padding: 100px 0;
+  padding: 60px 0;
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -564,12 +580,34 @@ nav.sticky {
 .cap-img1 {
   margin-bottom: 20px;
 }
+.about-animate1 img{
+  animation: aboutimg1 3s linear alternate infinite;
+}
+@keyframes aboutimg1{
+  0%{
+    transform: translateX(-15px);
+  }
+  100%{
+    transform: translateX(15px);
+  }
+}
+.about-animate2 img{
+  animation: aboutimg2 3s linear alternate infinite;
+}
+@keyframes aboutimg2{
+  0%{
+    transform: translateX(15px);
+  }
+  100%{
+    transform: translateX(-15px);
+  }
+}
 /******* ABOUT SECTION END  *******/
 
 /******* PRICING SECTION START  *******/
 #pricing {
-  padding-bottom: 160px;
-  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-top: 70px;
 }
 .pricing-items {
   display: flex;
@@ -580,7 +618,7 @@ nav.sticky {
   margin-top: 50px;
 }
 .politice-box:hover {
-  box-shadow: 1px 1px 13px 3px #efc4ff;
+  box-shadow: 1px 1px 13px 3px #e2e2e2;
 }
 .pricing-box {
   box-shadow: 0px 0px 4px 0px rgb(242 87 129 / 20%);
@@ -599,9 +637,6 @@ nav.sticky {
 .politice-box.aos-init.aos-animate {
   margin-bottom: 21px;
   transition: 0.4s;
-}
-.pricing-box:hover .pricing-text {
-  color: #000;
 }
 .pricing-box h2 {
   border: none;
@@ -627,6 +662,11 @@ nav.sticky {
   color: #000;
   border-radius: 105px 0px;
 }
+.pricing-text-bg{
+  background: linear-gradient(#f25781, #872ede);
+  color: #fff;
+}
+
 .pricing-text span {
   font-size: 60px;
 }
@@ -782,8 +822,6 @@ span.dollor {
   margin-top: 50px;
 }
 button.accordion-button.collapsed {
-  background: linear-gradient(#872ede, #f25781);
-  color: #fff;
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
@@ -792,8 +830,8 @@ button.accordion-button.collapsed {
 
 /******* REVIEW SECTION START *******/
 #review {
-  padding: 120px 0;
-  /* background: url(../images/review.jpg); */
+  padding-top: 100px;
+  padding-bottom: 50px;
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -906,6 +944,9 @@ button.slick-prev.slick-arrow {
   background: linear-gradient(#f25781, #872ede) !important;
   position: relative;
 }
+.extra-btn {
+  margin-top: 0px !important;
+}
 .btn-style::after {
   content: "";
   width: 100%;
@@ -941,6 +982,7 @@ button.slick-prev.slick-arrow {
 }
 .team-item-box picture img {
   width: 250px;
+  margin: auto;
 }
 .team-item-box h3 {
   font-size: 24px;
@@ -959,9 +1001,11 @@ button.slick-prev.slick-arrow {
   font-size: 22px;
   border-radius: 50%;
   color: #fff;
+  transition: all linear .3s;
 }
 .social a:hover {
-  background: linear-gradient(#f25781, #872ede);
+  background: linear-gradient(rgb(242, 87, 129), rgb(135, 46, 222));
+  transform: scale(1.1);
 }
 .arrow-icon .left {
   position: absolute;
@@ -1018,7 +1062,7 @@ button.slick-prev.slick-arrow {
   transition: all linear 0.3s;
   position: relative;
   z-index: 1;
-  margin-top: 36px;
+  margin-top: 15px;
 }
 .contact-btn::after {
   content: "";
