@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 992px){
     html, body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .banner-heading h1 {
         font-size: 42px;
@@ -152,6 +152,14 @@
         text-align: center;
         padding: 80px 50px;
     }
+    .icon-animate i {
+        bottom: 170px;
+        right: 338px;
+    }
+    .about-img img {
+        width: 560px !important;
+        margin-left: 130px;
+    }
     .banner-btn-wrapper {
         margin: auto;
         width: 360px;
@@ -236,6 +244,10 @@
         top: 111px;
         left: -337px;
     }
+    .about-img img {
+        width: 450px;
+        margin-left: 80px;
+    }
     .banner-right.capture-img.aos-init.aos-animate {
         margin-left: -204px;
     }
@@ -296,6 +308,10 @@
         margin-left: 0px;
         margin: auto;
         margin-bottom: 30px;
+    }
+    .about-img img {
+        width: 271px !important;
+        margin-left: 90px;
     }
     #work-tools {
         padding: 0px;

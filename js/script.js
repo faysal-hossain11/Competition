@@ -54,6 +54,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     asNavFor: ".wrapper-slide-text",
     autoplay: true,
+    pauseOnHover: false,
     centerMode: true,
     focusOnSelect: true,
     centerPadding: "0px",
@@ -85,11 +86,12 @@ $(document).ready(function () {
   });
   // CLIENT SECTION END
 
-  // TEAN SECTION STRAT
+  // TEAM SECTION STRAT
   $(".team-member-wrapper").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
+    pauseOnHover: false,
     autoplaySpeed: 2000,
     centerPadding: "0px",
     arrows: true,
@@ -122,7 +124,7 @@ $(document).ready(function () {
     ],
   });
 });
-// TEAN SECTION END
+// TEAM SECTION END
 
 // HEADER SECTION START
 $(window).scroll(function () {
@@ -143,7 +145,7 @@ $(window).scroll(function () {
 // HEADER SECTION END
 
 // BOTTOM TO TOP BUTTON CODE:--
-var btn = $("#button");
+let btn = $("#button");
 
 $(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
