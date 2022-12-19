@@ -722,7 +722,7 @@ span.dollor {
 }
 .pricing-btn {
   text-align: center;
-  transition: all linear 3s;
+  transition: all linear 1s !important;
 }
 .pricing-btn a {
   color: #fff;
@@ -739,6 +739,7 @@ span.dollor {
 }
 .pricing-btn a:hover {
   background: linear-gradient(#872ede, #f25781);
+  transition: all linear .4s;
 }
 
 /******* PRICING SECTION END  *******/
@@ -838,6 +839,7 @@ button.accordion-button.collapsed {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  background: #fffbf4;
 }
 .review-client {
   margin-top: 50px;
