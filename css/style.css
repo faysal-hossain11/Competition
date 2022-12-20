@@ -1,3 +1,4 @@
+
 /******* COMMON CSS START ********/
 * {
   margin: 0;
@@ -64,6 +65,7 @@ body {
   background: transparent;
   width: 100%;
   position: absolute;
+  padding: 25px 0px;
   z-index: 999999;
 }
 nav {
@@ -203,8 +205,8 @@ nav.sticky {
   margin-bottom: 37px;
 }
 .banner-right img {
-  animation: bounce 2s alternate infinite ease-in-out;
-    
+  animation: bounce 3s alternate infinite ease-in-out;
+  margin-top: 22px;
 }
 .about-img img{
   border-radius: 5px;
@@ -212,10 +214,10 @@ nav.sticky {
 }
 @keyframes bounce {
   0% {
-    transform: translateY(-20px);
+    transform: translateY(-5px);
   }
   100% {
-    transform: translateY(18px);
+    transform: translateY(20px);
   }
 }
 
@@ -334,6 +336,7 @@ nav.sticky {
 }
 .b-logo img {
   width: 100%;
+  padding: 0px 30px;
 }
 /******* BREND SECTTION END *******/
 
@@ -630,8 +633,7 @@ nav.sticky {
   overflow: hidden;
 }
 .pricing-box:hover {
-  box-shadow: -7px 0px 0px rgb(255 255 255 / 30%),
-    -5px -6px 7px rgb(0 0 0 / 20%), 5px 4px 5px rgb(0 0 0 / 20%);
+  box-shadow: 0px 0px 6px 4px #e1e3ff;
 }
 .politice-box {
   margin-bottom: 20px;
