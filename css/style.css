@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Slab", serif;
+  font-family: 'Poppins', sans-serif;
 }
 p,
 a {
@@ -193,7 +193,7 @@ nav.sticky {
 }
 .banner-heading h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 65px;
   margin-bottom: 29px;
