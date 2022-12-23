@@ -1,377 +1,426 @@
-@media screen and (max-width:1400px){
-    html, body{
-        overflow-x: hidden !important;
-    }
+@media screen and (max-width: 1400px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
 }
-@media screen and (max-width:1200px){
-    html, body{
-        overflow-x: hidden !important;
-    }
+@media screen and (max-width: 1200px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
 }
-@media screen and (max-width: 992px){
-    html, body{
-        overflow-x: hidden !important;
-    }
-    .banner-heading h1 {
-        font-size: 42px;
-    }
-    .banner-right img {
-        width: 67%;
-    }
-    .banner-heading p {
-        font-size: 16px;
-    }
-    .btn-text p {
-        font-size: 10px;
-    }
-    .btn-icom i {
-        font-size: 24px;
-        line-height: 36px;
-    }
-    .btn-text h4 {
-        font-size: 12px;
-    }
-    .b-logo img {
-        width: 78%;
-    }
-    .feature-box-item h3 {
-        font-size: 21px;
-    }
-    .feature-box-item p {
-        font-size: 15px;
-    }
-    .work-text p {
-        padding-right: 25px;
-        font-size: 15px;
-    }
-    .banner-right img {
-        width: 62%;
-    }
-    .politice-box img {
-        width: 70px;
-    }
-    .politice-box h3 {
-        font-size: 18px;
-        margin-top: 16px;
-        margin-bottom: 13px;
-    }
-    .pricing-box h2 {
-        padding: 10px 25px;
-        font-size: 21px;
-    }
-    .pricing-text span {
-        font-size: 51px;
-    }
-    .pricing-text h5 {
-        font-size: 21px;
-        margin-bottom: 7px;
-    }
-    span.dollor {
-        font-size: 16px;
-    }
-    .pricing-items p {
-        font-size: 14px;
-        position: relative;
-        top: 8px;
-        line-height: 19px;
-    }
-    .pricing-items i {
-        font-size: 18px;
-    }
-    .pricing-btn a {
-        padding: 8px 67px;
-        margin-top: 29px;
-        font-size: 17px;
-    }
-    .team-item-box picture img {
-        width: 176px;
-    }
-    .team-item-box h3 {
-        font-size: 20px;
-        margin-top: 26px;
-        margin-bottom: 7px;
-    }
-    .team-item-box p {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-    .social a {
-        height: 35px;
-        width: 35px;
-        line-height: 35px;
-        font-size: 19px;
-        border-radius: 50px;
-    }
-    .location-heading h4 {
-        font-size: 18px;
-    }
-    .contactbtn p {
-        font-size: 14px;
-    }
-    label.form-label {
-        font-size: 16px;
-        color: #fff;
-        font-weight: bold;
-    }
-    .contact-btn {
-        font-size: 18px;
-        padding: 9px 0px;
-        margin-top: 10px;
-    }
-    .socials a {
-        width: 25px;
-        height: 25px;
-        text-align: center;
-        line-height: 25px;
-        background: #fff;
-        border-radius: 50%;
-        color: #ff4586;
-        transition: all linear .3s;
-        margin-right: 1px;
-    }
-    .footer-bottom p {
-        font-size: 12px;
-    }
-    .footer-box h3 {
-        font-size: 22px;
-    }
-    .footer-box p {
-        margin-top: 32px;
-        font-size: 13px;
-    }
-    .ft-link a {
-        font-size: 12px;
-    }
-    .footer-box .ft-link span a {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .banner-left {
-        text-align: center;
-        padding: 80px 50px;
-    }
-    .icon-animate i {
-        bottom: 170px;
-        right: 338px;
-    }
-    .about-img img {
-        width: 560px !important;
-        margin-left: 130px;
-    }
-    .banner-btn-wrapper {
-        margin: auto;
-        width: 360px;
-    }
-    .banner-right img {
-        width: 37%;
-        margin: auto;
-    }
-    .common-heading h2 {
-        font-size: 37px;
-    }
-    .b-logo {
-        width: 145px !important;
-    }
-    .common-heading p {
-        font-size: 15px;
-    }
-    .banner-right img {
-        width: 82%;
-        margin-left: 122px;
-        margin-top: 70px;
-        margin-bottom: 60px;
-    }
-    .banner-right img {
-        width: 100%;
-        margin-top: 0px;
-        margin-bottom: 51px;
-    }
-    .capture-img {
-        width: 500px;
-        margin-left: -133px;
-    }
-    .for-tablet img {
-        width: 55%;
-    }
-    .btn-text p {
-        font-size: 10px;
-    }
-    .btn-text {
-        width: 85px;
-    }
-    .btn-text h4 {
-        font-size: 15px;
-    }
-    .contactbtn {
-        margin: auto;
-        margin-bottom: 20px;
-    }
-
-
-
-    /******* NAVBER CSS *******/
-
-    .nav-btn {
-        display: none;
-    }
-    li.nav-item {
-        width: 100%;
-        text-align: center;
-        transition: all linear .3s;
-    }
-    .container {
-        padding: 0px !important;
-    }
-    .navbar {
-        background: #415ab7;
-    }
-    button.navbar-toggler {
-        border: none;
-    }
-    button.navbar-toggler:focus{
-        box-shadow: none;
-    }
-    .navbar-toggler i{
-        font-size: 30px;
-        color: #fff;
-    }
-    
-}
-@media screen and (max-width: 576px){
-    .feature-icon i {
-        top: 111px;
-        left: -337px;
-    }
-    .about-img img {
-        width: 450px;
-        margin-left: 80px;
-    }
-    .banner-right.capture-img.aos-init.aos-animate {
-        margin-left: -204px;
-    }
-    i.fa-solid.fa-angle-left.left.slick-arrow {
-        display: none !important;
-    }
-    i.fa-solid.fa-angle-right.right.slick-arrow {
-        display: none !important;
-    }
-    .team-item-box picture img {
-        width: 169px;
-        margin: auto;
-    }
-    
+@media screen and (max-width: 992px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+  .navbar-nav.m-auto.mb-2.mb-lg-0 li a {
+    font-size: 16px;
+  }
+  .nav-btn a {
+    font-size: 16px;
+  }
+  .banner-heading h1 {
+    font-size: 42px;
+  }
+  .banner-right img {
+    width: 67%;
+  }
+  .banner-heading p {
+    font-size: 16px;
+  }
+  .btn-text p {
+    font-size: 10px;
+  }
+  .btn-icom i {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .btn-text h4 {
+    font-size: 12px;
+  }
+  .b-logo img {
+    width: 78%;
+  }
+  .feature-box-item h3 {
+    font-size: 21px;
+  }
+  .feature-box-item p {
+    font-size: 15px;
+  }
+  .work-text p {
+    padding-right: 25px;
+    font-size: 15px;
+  }
+  .banner-right img {
+    width: 62%;
+  }
+  .politice-box img {
+    width: 70px;
+  }
+  .politice-box h3 {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 13px;
+  }
+  .pricing-box h2 {
+    padding: 10px 25px;
+    font-size: 21px;
+  }
+  .pricing-text span {
+    font-size: 51px;
+  }
+  .pricing-text h5 {
+    font-size: 21px;
+    margin-bottom: 7px;
+  }
+  span.dollor {
+    font-size: 16px;
+  }
+  .pricing-items p {
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    line-height: 19px;
+  }
+  .pricing-items i {
+    font-size: 18px;
+  }
+  .pricing-btn a {
+    padding: 8px 67px;
+    margin-top: 29px;
+    font-size: 17px;
+  }
+  .team-item-box picture img {
+    width: 176px;
+  }
+  .team-item-box h3 {
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 7px;
+  }
+  .team-item-box p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .social a {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 19px;
+    border-radius: 50px;
+  }
+  .location-heading h4 {
+    font-size: 18px;
+  }
+  .contactbtn p {
+    font-size: 14px;
+  }
+  label.form-label {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .contact-btn {
+    font-size: 18px;
+    padding: 9px 0px;
+    margin-top: 10px;
+  }
+  .socials a {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    color: #ff4586;
+    transition: all linear 0.3s;
+    margin-right: 1px;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+  }
+  .footer-box h3 {
+    font-size: 22px;
+  }
+  .footer-box p {
+    margin-top: 32px;
+    font-size: 13px;
+  }
+  .ft-link a {
+    font-size: 12px;
+  }
+  .footer-box .ft-link span a {
+    font-size: 12px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .banner-left {
+    text-align: center;
+    padding: 80px 50px;
+  }
+  .icon-animate i {
+    bottom: 170px;
+    right: 338px;
+  }
+  .about-img img {
+    width: 560px !important;
+    margin-left: 130px;
+  }
+  .banner-btn-wrapper {
+    margin: auto;
+    width: 360px;
+  }
+  .banner-right img {
+    width: 37%;
+    margin: auto;
+  }
+  .common-heading h2 {
+    font-size: 37px;
+  }
+  .b-logo {
+    width: 145px !important;
+  }
+  .common-heading p {
+    font-size: 15px;
+  }
+  .banner-right img {
+    width: 82%;
+    margin-left: 122px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+  }
+  .banner-right img {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 51px;
+  }
+  .capture-img {
+    width: 500px;
+    margin-left: -133px;
+  }
+  .b-logo img {
+    width: 210px;
+    margin-left: 13px;
+  }
+  .for-tablet img {
+    width: 55%;
+  }
+  .btn-text p {
+    font-size: 10px;
+  }
+  .btn-text {
+    width: 85px;
+  }
+  .btn-text h4 {
+    font-size: 15px;
+  }
+  .contactbtn {
+    margin: auto;
+    margin-bottom: 20px;
+  }
 
-@media screen and (min-width: 320px) and (max-width: 573.98px){
-    html, body{
-        overflow-x: hidden;
-    }
+  /******* NAVBER CSS *******/
 
-    .banner-heading h1 {
-        font-size: 29px;
-        line-height: 47px;
-    }
-    .banner-heading p {
-        font-size: 15px;
-    }
-    .banner-btn-wrapper {
-        display: inherit !important;
-        margin-left: -50px;
-    }
-    .for-tablet img {
-        width: 61%;
-        margin: auto;
-    }
-    .common-heading h2 {
-        font-size: 28px;
-    }
-    .common-heading h2::after {
-        width: 70px;
-    }
-    .b-logo img {
-        margin-left: 94px;
-    }
-    .common-heading p {
-        font-size: 14px;
-    }
-    .banner-right img {
-        width: 60%;
-        margin: auto;
-        margin-left: 68px;
-    }
-    .work-left h2 {
-        width: 136px;
-        font-size: 31px;
-        margin-left: 0px;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-    .about-img img {
-        width: 271px !important;
-        margin-left: 90px;
-    }
-    #work-tools {
-        padding: 0px;
-    }
-    .capture-img {
-        text-align: center;
-        margin-bottom: 13px;
-    }
-    .banner-btn-wrapper.d-flex.justify-content-center.aos-init.aos-animate {
-        display: block !important;
-        margin: auto;
-        margin-left: 70px;
-    }
-    .team-item-box picture img {
-        width: 175px;
-        margin: auto;
-    }
-    .arrow-icon .right {
-        display: none !important;
-    }
-    .arrow-icon .left {
-        display: none !important;
-    }
-    .contactbtn {
-        margin: 10px;
-        margin-bottom: 15px;
-    }
-    .footer-box {
-        text-align: center;
-    }
-    .footer-left-text {
-        margin-left: 45px;
-        margin-bottom: 21px;
-    }
-    #footer {
-        padding: 50px 0px;
-    }
-    .footer-bottom p {
-        font-size: 11px;
-    }
-    .feature-icon i::after {
-        top: -64px;
-        left: 93px;
-    }
-    .banner-right.capture-img.aos-init.aos-animate {
-        margin-left: -125px;
-    }
-    form.aos-init.aos-animate {
-        margin: 10px;
-    }
-    .feature-box-item.feature-top.aos-init.aos-animate {
-        margin: 15px;
-    }
-    .feature-box-item {
-        margin: 15px;
-    }
-    .politice-box {
-        margin: 15px;
-    }
-    .row.sub-input {
-        margin: 15px 0px;
-    }
+  .nav-btn {
+    display: none;
+  }
+  li.nav-item {
+    width: 100%;
+    text-align: center;
+    transition: all linear 0.3s;
+  }
+  .container {
+    padding: 0px !important;
+  }
+  .navbar {
+    background: #415ab7;
+  }
+  button.navbar-toggler {
+    border: none;
+  }
+  button.navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-toggler i {
+    font-size: 30px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 576px) {
+  .feature-icon i {
+    top: 111px;
+    left: -337px;
+  }
+  .about-img img {
+    width: 450px;
+    margin-left: 80px;
+  }
+  .banner-right.capture-img.aos-init.aos-animate {
+    margin-left: -204px;
+  }
+  i.fa-solid.fa-angle-left.left.slick-arrow {
+    display: none !important;
+  }
+  i.fa-solid.fa-angle-right.right.slick-arrow {
+    display: none !important;
+  }
+  .team-item-box picture img {
+    width: 169px;
+    margin: auto;
+  }
+  .about-img img {
+    width: 466px !important;
+  }
+  .b-logo img {
+    width: 200px;
+    margin-left: 44px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 573.98px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    width: 178px;
+    padding-left: 10px;
+  }
+  .b-logo img {
+    margin-left: 60px !important;
+  }
+  .banner-heading h1 {
+    font-size: 29px;
+    line-height: 47px;
+  }
+  .banner-heading p {
+    font-size: 15px;
+  }
+  .banner-btn-wrapper {
+    display: inherit !important;
+    margin-left: -50px;
+  }
+  .for-tablet img {
+    width: 61%;
+    margin: auto;
+  }
+  .common-heading h2 {
+    font-size: 28px;
+    padding: 0px 10px;
+  }
+  .common-heading p {
+    padding: 0px 10px;
+  }
+  .common-heading h2::after {
+    width: 70px;
+  }
+  .available-btm-text p {
+    padding: 0px 10px;
+  }
+  .slide-text p {
+    padding: 0px 10px;
+  }
+  #review .slide-item img {
+    left: 21px;
+  }
+  .b-logo img {
+    margin-left: 94px;
+  }
+  .common-heading p {
+    font-size: 14px;
+  }
+  .banner-right img {
+    width: 60%;
+    margin: auto;
+    margin-left: 68px;
+  }
+  .work-left h2 {
+    width: 136px;
+    font-size: 31px;
+    margin-left: 0px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .about-img img {
+    width: 271px !important;
+    margin-left: 90px;
+  }
+  #work-tools {
+    padding: 0px;
+  }
+  .capture-img {
+    text-align: center;
+    margin-bottom: 13px;
+  }
+  .banner-right img {
+    width: 71%;
+    margin-left: 90px;
+}
+  .banner-btn-wrapper.d-flex.justify-content-center.aos-init.aos-animate {
+    display: block !important;
+    margin: auto;
+    margin-left: 70px;
+  }
+  .team-item-box picture img {
+    width: 175px;
+    margin: auto;
+  }
+  .arrow-icon .right {
+    display: none !important;
+  }
+  .arrow-icon .left {
+    display: none !important;
+  }
+  .contactbtn {
+    margin: 10px;
+    margin-bottom: 15px;
+  }
+  .footer-box {
+    text-align: center;
+  }
+  .footer-box p {
+    padding: 0px 10px;
+  }
+  .footer-left-text {
+    margin-left: 45px;
+    margin-bottom: 21px;
+  }
+  #footer {
+    padding: 50px 0px;
+  }
+  .footer-bottom p {
+    font-size: 11px;
+  }
+  .feature-icon i::after {
+    top: -64px;
+    left: 93px;
+  }
+  .banner-right.capture-img.aos-init.aos-animate {
+    margin-left: -125px;
+  }
+  form.aos-init.aos-animate {
+    margin: 10px;
+  }
+  .feature-box-item.feature-top.aos-init.aos-animate {
+    margin: 15px;
+  }
+  .feature-box-item {
+    margin: 15px;
+  }
+  .politice-box {
+    margin: 15px;
+  }
+  .row.sub-input {
+    margin: 15px 0px;
+  }
+  .accordion-item .accordion-button {
+    font-size: 14px;
+    padding: 18px 20px;
+  }
+  .accordion-item .accordion-button {
+    font-size: 16px;
+  }
 }

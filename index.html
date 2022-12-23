@@ -1,102 +1,778 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightSkills</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BrightSkills</title>
+    <!-- SLICK SLIDER THEME CSS LINK  -->
+    <link rel="stylesheet" href="css/slick-theme.css" />
 
-  <!-------- SLICK SLIDER THEME CSS LINK -------->
-  <link rel="stylesheet" href="css/slick-theme.css" />
+    <!-- SLICK SLIDER CSS LINK  -->
+    <link rel="stylesheet" href="css/slick.css" />
 
-  <!-------- SLICK SLIDER CSS LINK -------->
-  <link rel="stylesheet" href="css/slick.css" />
+    <!-- FONT AWESOME LINK  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
 
-  <!-------- FONT AWESOME LINK -------->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- GOOGLE FONT LINK  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-  <!--------  GOOGLE FONT LINK -------->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
+    <!-- BOOSTRAP CSS LINK  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-  <!--------- BOOSTRAP CSS LINK --------->
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- SCROLL ANIMATION AOS CSS LINK  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <!--------- SCROLL ANIMATION AOS CSS LINK --------->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- STYLE CSS LINK   -->
+    <link rel="stylesheet" href="css/style.css" />
 
-  <!--------- STYLE CSS LINK  --------->
-  <link rel="stylesheet" href="css/style.css" />
+    <!-- RESPONSIVE CSS LINK  -->
+    <link rel="stylesheet" href="css/responsive.css" />
 
-  <!--------- RESPONSIVE CSS LINK --------->
-  <link rel="stylesheet" href="css/responsive.css" />
+    <!-- ADD A FAVICON  -->
+    <link rel="icon" href="images/favicon.png" />
+  </head>
 
-  <!--------- ADD A FAVICON  --------->
-  <link rel="icon" href="images/favicon.png" />
-</head>
-
-<body>
-  <!--------- NAVBER START ---------->
-  <nav class="navbar navbar-expand-lg navbar-light menu">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo.Bright-skills.png" alt="" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#banner">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work-tools">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#pricing">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#review">Review</a>
-          </li>
-        </ul>
-      </div>
-      <div class="nav-btn">
-        <a href="#contact">Contact</a>
+  <body>
+    <!-- PRELOADER START -->
+    <div class="preloader">
+      <div class="pageloader-icon">
+        <svg viewBox="0 0 120 120" class="svg-preloader">
+          <symbol id="s-circle">
+            <circle r="10" cx="10" cy="10"></circle>
+          </symbol>
+          <rect class="r-bounds" width="100%" height="100%" />
+          <g id="circle" class="g-circles">
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+            <g class="g-circle">
+              <use xlink:href="#s-circle" class="u-circle" />
+            </g>
+          </g>
+        </svg>
       </div>
     </div>
-  </nav>
-  <!------------- NAVBER END ------------->
+    <!-- PRELOADER END -->
 
-  <!------------- BANNER SECTION START ------------->
-  <section id="banner">
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-lg-6 banner-left">
-          <div class="banner-heading">
-            <h1 data-aos="fade-right" data-aos-duration="600">
-              BrightSkills is the country's best e-learning platform.
-            </h1>
-            <p data-aos="fade-right" data-aos-duration="1200">
-              In this age of 'everything is possible', why are you calling
-              yourself 'impossible'? Develop your skills at home now - from
-              the best experts!
-            </p>
+    <!-- NAVBER START  -->
+    <nav class="navbar navbar-expand-lg navbar-light menu">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/brigthskill.png" alt="brightskill" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#banner"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work-tools">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#review">Review</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-btn">
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBER END  -->
+
+    <!-- BANNER SECTION START  -->
+    <section id="banner">
+      <div class="container">
+        <div class="row banner-top d-flex align-items-center">
+          <div class="col-lg-6 banner-left">
+            <div class="banner-heading">
+              <h1 data-aos="fade-right" data-aos-duration="600">
+                BrightSkills is the country's best e-learning platform.
+              </h1>
+              <p data-aos="fade-right" data-aos-duration="1200">
+                In this age of 'everything is possible', why are you calling
+                yourself 'impossible'? Develop your skills at home now - from
+                the best experts!
+              </p>
+            </div>
+            <div
+              class="banner-btn-wrapper d-flex"
+              data-aos="fade-right"
+              data-aos-duration="1700"
+            >
+              <div class="banner-btn">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US"
+                  target="_blank"
+                >
+                  <div class="btn-icom d-flex">
+                    <i class="fa-brands fa-google-play"></i>
+                    <div class="btn-text">
+                      <p>Available on</p>
+                      <h4>Google Play</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="banner-btn">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US"
+                  target="_blank"
+                >
+                  <div class="btn-icom d-flex">
+                    <i class="fa-brands fa-apple"></i>
+                    <div class="btn-text">
+                      <p>Download on</p>
+                      <h4>Apps Store</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="banner-btn-wrapper d-flex" data-aos="fade-right" data-aos-duration="1700">
+          <div class="col-lg-6">
+            <div
+              class="banner-right banner-icon for-tablet d-flex justify-content-end"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <img src="images/banner-right.png" alt="banner-right" />
+              <div class="icon-animate">
+                <a href="https://www.brightskills.com/" target="_blank"
+                  ><i class="fa-solid fa-circle-dot"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <div class="wave wave4"></div>
+    </section>
+    <!-- BANNER SECTION END  -->
+
+    <!-- BREND SECTTON STARAT  -->
+    <section id="brend">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div
+              class="common-heading text-center"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <h2>Our Partners</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row partner-img">
+          <div class="col-lg-12">
+            <div class="brend-logo" data-aos="fade-up" data-aos-duration="2000">
+              <div class="b-logo">
+                <a href="index.html">
+                  <img src="images/partner1.png" alt="partner" />
+                </a>
+              </div>
+              <div class="b-logo">
+                <a href="index.html">
+                  <img src="images/partner2.png" alt="partner" />
+                </a>
+              </div>
+              <div class="b-logo">
+                <a href="index.html">
+                  <img src="images/partner3.png" alt="partner" />
+                </a>
+              </div>
+              <div class="b-logo">
+                <a href="index.html">
+                  <img src="images/partner4.png" alt="partner" />
+                </a>
+              </div>
+              <div class="b-logo">
+                <a href="index.html">
+                  <img src="images/partner1.png" alt="partner" />
+                </a>
+              </div>
+              <div class="b-logo">
+                <a href="index.html">
+                  <img src="images/partner2.png" alt="partner" />
+                </a>
+              </div>
+              <div class="b-logo">
+                <a href="index.html">
+                  <img src="images/slide-7.png" alt="slide-7" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BREND SECTTON END  -->
+
+    <!-- FEATURES SECTION START  -->
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div class="common-heading text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1000">
+                Why we are ahead of everyone
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                Each course has opportunities for self and career development.
+                Adequate resources are provided in each course.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row features-row">
+          <div
+            class="col-lg-6 d-flex align-items-center fea"
+            data-aos="fade-up"
+            data-aos-duration="2500"
+          >
+            <div class="feature-left-img banner-right">
+              <img src="images/features.png" alt="features" />
+            </div>
+            <div class="fea-img">
+              <img src="images/line2.png" alt="" />
+            </div>
+            <div class="fe-img banner-right">
+              <img src="images/full-width-feature-01.png" alt="" />
+            </div>
+            <div class="feature-icon">
+              <a href="https://www.brightskills.com/" target="_blank"
+                ><i class="fa-solid fa-circle-play"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6 feature-card">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <div
+                  class="feature-box-item feature-top"
+                  data-aos="fade-up"
+                  data-aos-duration="500"
+                >
+                  <i class="fa-solid fa-file-code"></i>
+                  <h3>Career Development</h3>
+                  <p>
+                    From Soft-Skill Enhancement to Career Development – ​​A-to-Z
+                    Syllabus to Empower Yourself So is the top of a resume. It
+                    highlights relevant experience, professional achievements
+                    and skills.
+                  </p>
+                </div>
+                <div
+                  class="feature-box-item feature-top"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
+                  <i class="fa-solid fa-person-chalkboard"></i>
+                  <h3>Instructors</h3>
+                  <p>
+                    The most efficient instructors create lessons in the
+                    simplest possible way Every successful journey have some
+                    story and they are called inspiration instructors very
+                    importans for all student
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div
+                  class="feature-box-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <i class="fa-solid fa-certificate"></i>
+                  <h3>Certificate</h3>
+                  <p>
+                    Arrangement of quizzes and exams for merit verification.
+                    Certificate at the end of the course. A test may be
+                    developed and administered by an instructor a governing body
+                    or a test provider.
+                  </p>
+                </div>
+                <div
+                  class="feature-box-item"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <i class="fa-solid fa-hands-asl-interpreting"></i>
+                  <h3>Multiple Language</h3>
+                  <p>
+                    Learning languages can open up the world for you. The world
+                    is going through dynamic changes .available across the
+                    utilised better by the people in developing they are
+                    multilingual.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FEATURES SECTION END  -->
+
+    <!-- ABOUT SECTION START  -->
+    <section id="work-tools">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="work-left">
+              <h2 data-aos="fade-right" data-aos-duration="1300">About Us</h2>
+              <div
+                class="work-text"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <i class="fa-solid fa-check-double"></i>
+                <p>
+                  Platform in Bangladesh. We conduct various courses required
+                  for career development by industry skilled
+                  instructors.Experienced Mentors, Updated Course Curriculum,
+                  Quality Training, Certificates of International Standards etc.
+                  make us the top choice of students. Each of our recorded
+                  courses is tailored to the needs of the job market. We are
+                  working to ensure that no one is left behind in the job market
+                  due to lack of skills in a dynamic world dependent on
+                  technology.BrightSkills is committed to eliminating
+                  unemployment from the country and creating global human
+                  resources through skill development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="about-animate1 about-img capture-img"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <a href="https://www.brightskills.com/" target="_blank">
+                <picture>
+                  <img
+                    src="images/Capture.PNG"
+                    class="cap-img1"
+                    alt="Capture"
+                  />
+                </picture>
+              </a>
+            </div>
+            <div
+              class="about-animate2 about-img capture-img"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
+              <a href="https://www.brightskills.com/" target="_blank">
+                <picture>
+                  <img src="images/Capture2.PNG" alt="Capture" />
+                </picture>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END  -->
+
+    <!-- POLITICES SECTION START  -->
+    <section id="politice">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div class="common-heading text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1500">
+                Why take a course from BrightSkills?
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                Cras fringilla, lectus sed ullamcorper fringilla. Massa ex
+                accumsan odio, quis iaculis justo magna quis tortor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row politice-wrapper">
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div class="politice-box">
+              <picture>
+                <img src="images/courses.png" alt="courses" />
+              </picture>
+              <h3>Updated course modules</h3>
+              <p>
+                Each course is designed following timely course modules and
+                international course curriculum.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <div class="politice-box">
+              <picture>
+                <img src="images/skill.png" alt="skill" />
+              </picture>
+              <h3>Skill development</h3>
+              <p>
+                Each course has opportunities for self and career development.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-duration="1700"
+          >
+            <div class="politice-box">
+              <picture>
+                <img src="images/mentor.png" alt="mentor" />
+              </picture>
+              <h3>Professional Mentor</h3>
+              <p>
+                Each course is developed by market experienced and professional
+                mentors
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-duration="1900"
+          >
+            <div class="politice-box politice4">
+              <picture>
+                <img src="images/folder.png" alt="folder" />
+              </picture>
+              <h3>Provision of adequate resources</h3>
+              <p>Adequate resources are provided in each & every course.</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-duration="2200"
+          >
+            <div class="politice-box">
+              <picture>
+                <img src="images/certificate.png" alt="certificate" />
+              </picture>
+              <h3>Certification</h3>
+              <p>
+                There is a certificate at the end of each course. There is an
+                option to add certificates to the online portfolio.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-duration="2600"
+          >
+            <div class="politice-box">
+              <picture>
+                <img src="images/support.png" alt="support" />
+              </picture>
+              <h3>Career support</h3>
+              <p>
+                We have career support team to provide necessary guidance to
+                students for their career development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- POLITICES SECTION END  -->
+
+    <!-- FAQ SECTION START  -->
+    <section id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div class="common-heading text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1000">
+                Frequently Asked Questions
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                Cras fringilla, lectus sed ullamcorper fringilla. Massa ex
+                accumsan odio, quis iaculis justo magna quis tortor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row faq-accrodian">
+          <div class="col-lg-8 m-auto">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="accordion-item"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    How to install App?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      First of all go to the play store, And download the
+                      BrightSkill App.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Can I get support from the brightskills?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Bright Skills is one of the best e-learning skill
+                      development platform in Bangladesh. We are committed to
+                      eliminating unemployment from the country and creating
+                      global human resources through skill development.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Do you have a free trail?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Yes, you can learn for free on Bride Skill's official
+                      website, YouTube and Facebook page
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    How can I edit my personal information?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Yes you can, you can edit your personal information by
+                      going to Settings in the BrightSkills app.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item"
+                data-aos="fade-up"
+                data-aos-duration="2500"
+              >
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Contact form isn't working?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      <b>Contact our support team</b><br />
+                      <b>Contact phone no:</b> +8801990779811 ,
+                      +8801990779757<br />
+                      <b>Email address:</b> info@brightskill.com<br />
+                      <b>Office Location:</b><br />
+                      Address: 4th Floor House, Momtaz Plaza<br />
+                      7 Rd No 4, Dhaka 1205<br />
+                      Bangladesh
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ SECTION END  -->
+
+    <!-- AVAILABLE APP START -->
+    <section id="available">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div class="common-heading text-center color-white">
+              <h2 data-aos="fade-up" data-aos-duration="1500">
+                App is available for all devices
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                App is available for all devices, consectetur adipisicing elit.
+                Itaque at harum quam explicabo. Aliquam optio, delectus, dolorem
+                quod neque eos totam. Delectus quae animi tenetur voluptates
+                doloribus commodi dicta modi aliquid deserunt, quis maiores
+                nesciunt autem, aperiam natus.
+              </p>
+            </div>
+          </div>
+          <div
+            class="banner-btn-wrapper d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div class="banner-btn">
-              <a href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US" target="_blank">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US"
+                target="_blank"
+              >
                 <div class="btn-icom d-flex">
                   <i class="fa-brands fa-google-play"></i>
                   <div class="btn-text">
@@ -107,9 +783,12 @@
               </a>
             </div>
             <div class="banner-btn">
-              <a href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US" target="_blank">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US"
+                target="_blank"
+              >
                 <div class="btn-icom d-flex">
-                  <i class="fa-brands fa-apple"></i>
+                  <i class="fa-solid fa-mobile-screen-button"></i>
                   <div class="btn-text">
                     <p>Download on</p>
                     <h4>Apps Store</h4>
@@ -118,1138 +797,753 @@
               </a>
             </div>
           </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="banner-right banner-icon for-tablet d-flex justify-content-end" data-aos="fade-up"
-            data-aos-duration="2000">
-            <img src="images/banner-right.png" alt="banner-right" />
-            <div class="icon-animate">
-              <a href="https://www.brightskills.com/" target="_blank"><i class="fa-solid fa-circle-dot"></i></a>
-            </div>
+          <div
+            class="available-btm-text text-center"
+            data-aos="fade-up"
+            data-aos-duration="4000"
+          >
+            <p>* Available on iPhone, iPad and all Android devices</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="wave wave1"></div>
-    <div class="wave wave2"></div>
-    <div class="wave wave3"></div>
-    <div class="wave wave4"></div>
-  </section>
-  <!---------- BANNER SECTION END ---------->
+    </section>
+    <!-- AVAILABLE APP END  -->
 
-  <!---------- BREND SECTTON STARAT ---------->
-  <section id="brend">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center" data-aos="fade-up" data-aos-duration="1000">
-            <h2>Our Partners</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row partner-img">
-        <div class="col-lg-12">
-          <div class="brend-logo" data-aos="fade-up" data-aos-duration="2000">
-            <div class="b-logo">
-              <a href="index.html">
-                <img src="images/partner 1.png" alt="partner" />
-              </a>
-            </div>
-            <div class="b-logo">
-              <a href="index.html">
-                <img src="images/partner 2.png" alt="partner" />
-              </a>
-            </div>
-            <div class="b-logo">
-              <a href="index.html">
-                <img src="images/partner 3.png" alt="partner" />
-              </a>
-            </div>
-            <div class="b-logo">
-              <a href="index.html">
-                <img src="images/partner 4.png" alt="partner" />
-              </a>
-            </div>
-            <div class="b-logo">
-              <a href="index.html">
-                <img src="images/partner 1.png" alt="partner" />
-              </a>
-            </div>
-            <div class="b-logo">
-              <a href="index.html">
-                <img src="images/partner 2.png" alt="partner" />
-              </a>
-            </div>
-            <div class="b-logo">
-              <a href="index.html">
-                <img src="images/slide-7.png" alt="slide-7" />
-              </a>
+    <!-- REVIEW SECTION START -->
+    <section id="review">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div class="common-heading text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1500">
+                Client Reviews
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                Donec purus est, tincidunt eu sodales quis, vehicula quis enim.
+                Morbi dapibus, tellus a gravida faucibus, elit ipsum.
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!----------- BREND SECTTON END ----------->
-
-  <!----------- FEATURES SECTION START ----------->
-  <section id="features">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center">
-            <h2 data-aos="fade-up" data-aos-duration="1000">
-              Why we are ahead of everyone
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              Each course has opportunities for self and career development.
-              Adequate resources are provided in each course.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row features-row">
-        <div class="col-lg-6 d-flex align-items-center fea" data-aos="fade-up" data-aos-duration="2500">
-          <div class="feature-left-img banner-right">
-            <img src="images/features.png" alt="features" />
-          </div>
-          <div class="fea-img">
-            <img src="images/line2.png" alt="" />
-          </div>
-          <div class="fe-img banner-right">
-            <img src="images/full-width-feature-01.png" alt="" />
-          </div>
-          <div class="feature-icon">
-            <a href="https://www.brightskills.com/" target="_blank"><i class="fa-solid fa-circle-play"></i></a>
-          </div>
-        </div>
-        <div class="col-lg-6 feature-card">
-          <div class="row">
-            <div class="col-lg-6 col-sm-6">
-              <div class="feature-box-item feature-top" data-aos="fade-up" data-aos-duration="500">
-                <i class="fa-solid fa-file-code"></i>
-                <h3>Career Development</h3>
+        <div class="row review-client">
+          <div class="col-lg-8 m-auto">
+            <div
+              class="wrapper-slide-text"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <div class="slide-text">
                 <p>
-                  From Soft-Skill Enhancement to Career Development – ​​A-to-Z
-                  Syllabus to Empower Yourself So is the top of a resume. It
-                  highlights relevant experience, professional achievements
-                  and skills.
+                  <i class="fa-solid fa-quote-left"></i>"Now Freelancing" I
+                  didn't know much about freelancing. Got ideas about design and
+                  projects by taking Bright Skills' Freelancing with course. At
+                  the end of the course, I got the guidelines to work in the
+                  online marketplace.<i class="fa-solid fa-quote-right"></i>
                 </p>
+                <h2>John Doe</h2>
+                <p>Los Angeles, California</p>
+                <div class="client-star d-flex justify-content-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
               </div>
-              <div class="feature-box-item feature-top" data-aos="fade-up" data-aos-duration="1500">
-                <i class="fa-solid fa-person-chalkboard"></i>
-                <h3>Instructors</h3>
+              <div class="slide-text">
                 <p>
-                  The most efficient instructors create lessons in the
-                  simplest possible way Every successful journey have some
-                  story and they are called inspiration instructors very
-                  importans for all student
+                  <i class="fa-solid fa-quote-left"></i>"Learned the basics in
+                  less time" I've taken classes on a few learning platforms
+                  where the focus is diverted from the main point by going on
+                  too long, but BrightSkills' courses are focused on the core.<i
+                    class="fa-solid fa-quote-right"
+                  ></i>
                 </p>
+                <h2>Xenia Mell</h2>
+                <p>From Massive</p>
+                <div class="client-star d-flex justify-content-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="feature-box-item" data-aos="fade-up" data-aos-duration="1000">
-                <i class="fa-solid fa-certificate"></i>
-                <h3>Certificate</h3>
+              <div class="slide-text">
                 <p>
-                  Arrangement of quizzes and exams for merit verification.
-                  Certificate at the end of the course. A test may be
-                  developed and administered by an instructor a governing body
-                  or a test provider.
+                  <i class="fa-solid fa-quote-left"></i>"Learned international
+                  standard courses in Bengal" We usually find various tutorials
+                  online in English. But now I can easily learn international
+                  standard courses on Bright Skills platform.<i
+                    class="fa-solid fa-quote-right"
+                  ></i>
                 </p>
+                <h2>Shane Catson</h2>
+                <p>From Capital</p>
+                <div class="client-star d-flex justify-content-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
               </div>
-              <div class="feature-box-item" data-aos="fade-up" data-aos-duration="2000">
-                <i class="fa-solid fa-hands-asl-interpreting"></i>
-                <h3>Multiple Language</h3>
+              <div class="slide-text">
                 <p>
-                  Learning languages can open up the world for you. The world
-                  is going through dynamic changes .available across the
-                  utilised better by the people in developing they are
-                  multilingual.
+                  <i class="fa-solid fa-quote-left"></i>Skilled can be when
+                  Traditionally we get our education by going to schools and
+                  colleges. But with the help of online medium, now we can
+                  easily become efficient anytime from any place just by using
+                  electronic devices.<i class="fa-solid fa-quote-right"></i>
                 </p>
+                <h2>Jane Aniston</h2>
+                <p>From Globex</p>
+                <div class="client-star d-flex justify-content-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="slide-text">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i>International standard
+                  courses in Bengali We usually find various tutorials online in
+                  English. But now we can easily learn international standard
+                  courses on BrightSkills. As result, to becoming proficient is
+                  expanding effortlessly.<i class="fa-solid fa-quote-right"></i>
+                </p>
+                <h2>Martin Jack</h2>
+                <p>From Hooli California</p>
+                <div class="client-star d-flex justify-content-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slide-wrapper-img">
+              <div class="slide-item text-center">
+                <img src="images/client-1.jpg" alt="client-1" />
+              </div>
+              <div class="slide-item">
+                <img src="images/client-2.jpg" alt="client-2" />
+              </div>
+              <div class="slide-item">
+                <img src="images/client-3.jpg" alt="client-3" />
+              </div>
+              <div class="slide-item">
+                <img src="images/client-4.jpg" alt="client-4" />
+              </div>
+              <div class="slide-item">
+                <img src="images/client-5.jpg" alt="client-5" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!---------- FEATURES SECTION END ---------->
+    </section>
+    <!-- REVIEW SECTION END  -->
 
-  <!---------- ABOUT SECTION START ---------->
-  <section id="work-tools">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="work-left">
-            <h2 data-aos="fade-right" data-aos-duration="1300">About Us</h2>
-            <div class="work-text" data-aos="fade-right" data-aos-duration="2000">
-              <i class="fa-solid fa-check-double"></i>
-              <p>
-                Platform in Bangladesh. We conduct various courses required
-                for career development by industry skilled instructors.Experienced Mentors, Updated Course Curriculum,
-                Quality
-                Training, Certificates of International Standards etc. make us
-                the top choice of students. Each of our recorded courses is
-                tailored to the needs of the job market. We are working to ensure that no one is left behind in the job
-                market due to lack of skills in a dynamic world dependent on
-                technology.BrightSkills is committed to eliminating
-                unemployment from the country and creating global human
-                resources through skill development.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="about-animate1 about-img capture-img" data-aos="fade-left" data-aos-duration="1500">
-            <picture>
-              <a href="https://www.brightskills.com/" target="_blank">
-                <img src="images/Capture.PNG" class="cap-img1" alt="Capture" />
-              </a>
-            </picture>
-          </div>
-          <div class="about-animate2 about-img capture-img" data-aos="fade-left" data-aos-duration="2000">
-            <picture>
-              <a href="https://www.brightskills.com/" target="_blank">
-                <img src="images/Capture2.PNG" alt="Capture" />
-              </a>
-            </picture>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--------- ABOUT SECTION END --------->
-
-  <!--------- POLITICES SECTION START --------->
-  <section id="politice">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center">
-            <h2 data-aos="fade-up" data-aos-duration="1500">
-              Why take a course from BrightSkills?
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              Cras fringilla, lectus sed ullamcorper fringilla. Massa ex
-              accumsan odio, quis iaculis justo magna quis tortor.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row politice-wrapper">
-        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="500">
-          <div class="politice-box">
-            <picture>
-              <img src="images/courses.png" alt="courses">
-            </picture>
-            <h3>Updated course modules</h3>
-            <p>
-              Each course is designed following timely course modules and
-              international course curriculum.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1200">
-          <div class="politice-box">
-            <picture>
-              <img src="images/skill.png" alt="skill" />
-            </picture>
-            <h3>Skill development</h3>
-            <p>
-              Each course has opportunities for self and career development.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1700">
-          <div class="politice-box">
-            <picture>
-              <img src="images/mentor.png" alt="mentor" />
-            </picture>
-            <h3>Professional Mentor</h3>
-            <p>
-              Each course is developed by market experienced and professional
-              mentors
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1900">
-          <div class="politice-box politice4">
-            <picture>
-              <img src="images/folder.png" alt="folder" />
-            </picture>
-            <h3>Provision of adequate resources</h3>
-            <p>Adequate resources are provided in each & every course.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="2200">
-          <div class="politice-box">
-            <picture>
-              <img src="images/certificate.png" alt="certificate" />
-            </picture>
-            <h3>Certification</h3>
-            <p>
-              There is a certificate at the end of each course. There is an
-              option to add certificates to the online portfolio.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="2600">
-          <div class="politice-box">
-            <picture>
-              <img src="images/support.png" alt="support" />
-            </picture>
-            <h3>Career support</h3>
-            <p>
-              We have career support team to provide necessary guidance to
-              students for their career development.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!---------- POLITICES SECTION END ---------->
-
-  <!---------- FAQ SECTION START ---------->
-  <section id="faq">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center">
-            <h2 data-aos="fade-up" data-aos-duration="1000">
-              Frequently Asked Questions
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              Cras fringilla, lectus sed ullamcorper fringilla. Massa ex
-              accumsan odio, quis iaculis justo magna quis tortor.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row faq-accrodian">
-        <div class="col-lg-8 m-auto">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item" data-aos="fade-up" data-aos-duration="500">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  How to install App?
-                </button>
+    <!-- PRICING PLANS SECTION START  -->
+    <section id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 m-auto">
+            <div class="common-heading text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1500">
+                Pricing plans!
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  First of all go to the play store, And download the BrightSkill App.
+              <p data-aos="fade-up" data-aos-duration="2000">
+                A Private Limited is the most popular type of partnership Malta.
+                The limited liability is, in fact, the only type of company
+                allowed by Companies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row pricing-path-top">
+          <div class="col-lg-4">
+            <div
+              class="pricing-box"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              <h2>Basic</h2>
+              <div class="pricing-text">
+                <h4><span class="dollor">$</span><span>09</span> /month</h4>
+                <h5>17 to 19 user</h5>
+                <p>For most businesses that want to</p>
+                <p class="p">optimize web query.</p>
+              </div>
+              <div class="pricing-buttom">
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>2 App and project</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>400 Gb/s storange</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>Free coustom domain</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-xmark cross-sign"></i>
+                  <p>Chat Support</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-xmark cross-sign"></i>
+                  <p>No transaction fees</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-xmark cross-sign"></i>
+                  <p>Unlimited Storage</p>
+                </div>
+                <div class="pricing-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-check-double"></i>
+                    Buy Now
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Can I get support from the brightskills?
-                </button>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="pricing-box"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <h2>Startup</h2>
+              <div class="pricing-text pricing-text-bg">
+                <h4><span class="dollor">$</span><span>19</span> /month</h4>
+                <h5>20 to 40 user</h5>
+                <p>For most businesses that want to</p>
+                <p class="p">optimize web query.</p>
+              </div>
+              <div class="pricing-buttom">
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>2 App and project</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>800 Gb/s storange</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>Free coustom domain</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>Chat Support</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-xmark cross-sign"></i>
+                  <p>No transaction fees</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-xmark cross-sign"></i>
+                  <p>Unlimited Storage</p>
+                </div>
+                <div class="pricing-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-check-double"></i>
+                    Buy Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="pricing-box"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            >
+              <h2>Enterprise</h2>
+              <div class="pricing-text">
+                <h4><span class="dollor">$</span><span>29</span> /month</h4>
+                <h5>17 to 19 user</h5>
+                <p>For most businesses that want to</p>
+                <p class="p">optimize web query.</p>
+              </div>
+              <div class="pricing-buttom">
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>2 App and project</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>800 Gb/s storange</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>Free coustom domain</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>Chat Support</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>No transaction fees</p>
+                </div>
+                <div class="pricing-items">
+                  <i class="fa-regular fa-circle-check"></i>
+                  <p>Unlimited Storage</p>
+                </div>
+                <div class="pricing-btn">
+                  <a href="#">
+                    <i class="fa-solid fa-check-double"></i>
+                    Buy Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PRICING PLANS SECTION END  -->
+
+    <!-- SUBSCRIPTION SECTION START  -->
+    <section id="subscription">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div class="common-heading text-center color-white">
+              <h2 data-aos="fade-up" data-aos-duration="1500">
+                Subscribe to get updates
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Bright Skills is one of the best e-learning skill development platform in Bangladesh. We are committed
-                  to eliminating unemployment from the country and creating global human resources through skill
-                  development.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Do you have a free trail?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Yes, you can learn for free on Bride Skill's official website, YouTube and Facebook page
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2000">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  How can I edit my personal information?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Yes you can, you can edit your personal information by going to Settings in the BrightSkills app.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item" data-aos="fade-up" data-aos-duration="2500">
-              <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Contact form isn't working?
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <b>Contact our support team</b><br>
-                  <b>Contact phone no:</b> +8801990779811 , +8801990779757<br>
-                  <b>Email address:</b> info@brightskill.com<br>
-                  <b>Office Location:</b><br>
-                  Address: 4th Floor House, Momtaz Plaza<br>
-                  7 Rd No 4, Dhaka 1205<br>
-                  Bangladesh
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!---------- FAQ SECTION END ---------->
-
-  <!---------- AVAILABLE APP START---------->
-  <section id="available">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center color-white">
-            <h2 data-aos="fade-up" data-aos-duration="1500">
-              App is available for all devices
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              App is available for all devices, consectetur adipisicing elit.
-              Itaque at harum quam explicabo. Aliquam optio, delectus, dolorem
-              quod neque eos totam. Delectus quae animi tenetur voluptates
-              doloribus commodi dicta modi aliquid deserunt, quis maiores
-              nesciunt autem, aperiam natus.
-            </p>
-          </div>
-        </div>
-        <div class="banner-btn-wrapper d-flex justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-          <div class="banner-btn">
-            <a href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US" target="_blank">
-              <div class="btn-icom d-flex">
-                <i class="fa-brands fa-google-play"></i>
-                <div class="btn-text">
-                  <p>Available on</p>
-                  <h4>Google Play</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="banner-btn">
-            <a href="https://play.google.com/store/apps/details?id=com.brightskills.app&hl=en&gl=US" target="_blank">
-              <div class="btn-icom d-flex">
-                <i class="fa-solid fa-mobile-screen-button"></i>
-                <div class="btn-text">
-                  <p>Download on</p>
-                  <h4>Apps Store</h4>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="available-btm-text text-center" data-aos="fade-up" data-aos-duration="4000">
-          <p>* Available on iPhone, iPad and all Android devices</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--------- AVAILABLE APP END ---------->
-
-  <!--------- REVIEW SECTION START --------->
-  <section id="review">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center">
-            <h2 data-aos="fade-up" data-aos-duration="1500">
-              Client Reviews
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              Donec purus est, tincidunt eu sodales quis, vehicula quis enim.
-              Morbi dapibus, tellus a gravida faucibus, elit ipsum.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row review-client">
-        <div class="col-lg-8 m-auto">
-          <div class="wrapper-slide-text" data-aos="fade-up" data-aos-duration="3000">
-            <div class="slide-text">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>"Now Freelancing"
-                I didn't know much about freelancing. Got ideas about design and projects by taking Bright Skills'
-                Freelancing with course. At the end of the course, I got the guidelines to work in the online
-                marketplace.<i class="fa-solid fa-quote-right"></i>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                By subscribing you will get newsleter, promotions adipisicing
+                elit. Architecto beatae, asperiores tempore repudiandae saepe
+                aspernatur unde voluptate sapiente quia ex.
               </p>
-              <h2>John Doe</h2>
-              <p>Los Angeles, California</p>
-              <div class="client-star d-flex justify-content-center">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div>
-            <div class="slide-text">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>"Learned the basics in less time"
-                I've taken classes on a few learning platforms where the focus is diverted from the main point by going
-                on too long, but BrightSkills' courses are focused on the core.<i class="fa-solid fa-quote-right"></i>
-              </p>
-              <h2>Xenia Mell</h2>
-              <p>From Massive</p>
-              <div class="client-star d-flex justify-content-center">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div>
-            <div class="slide-text">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>"Learned international standard courses in Bengal"
-                We usually find various tutorials online in English. But now I can easily learn international standard
-                courses on Bright Skills platform.<i class="fa-solid fa-quote-right"></i>
-              </p>
-              <h2>Shane Catson</h2>
-              <p>From Capital</p>
-              <div class="client-star d-flex justify-content-center">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div>
-            <div class="slide-text">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>Skilled can be when
-                Traditionally we get our education by going to schools and colleges. But with the help of online medium,
-                now we can easily become efficient anytime from any place just by using electronic devices.<i
-                  class="fa-solid fa-quote-right"></i>
-              </p>
-              <h2>Jane Aniston</h2>
-              <p>From Globex</p>
-              <div class="client-star d-flex justify-content-center">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div>
-            <div class="slide-text">
-              <p>
-                <i class="fa-solid fa-quote-left"></i>International standard courses in Bengali
-                We usually find various tutorials online in English. But now we can easily learn international standard
-                courses on BrightSkills. As result, to becoming proficient is expanding effortlessly.<i
-                  class="fa-solid fa-quote-right"></i>
-              </p>
-              <h2>Martin Jack</h2>
-              <p>From Hooli California</p>
-              <div class="client-star d-flex justify-content-center">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div>
-          </div>
-          <div class="slide-wrapper-img">
-            <div class="slide-item text-center">
-              <img src="images/client-1.jpg" alt="client-1" />
-            </div>
-            <div class="slide-item">
-              <img src="images/client-2.jpg" alt="client-2" />
-            </div>
-            <div class="slide-item">
-              <img src="images/client-3.jpg" alt="client-3" />
-            </div>
-            <div class="slide-item">
-              <img src="images/client-4.jpg" alt="client-4" />
-            </div>
-            <div class="slide-item">
-              <img src="images/client-5.jpg" alt="client-5" />
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--------- REVIEW SECTION END --------->
-
-  <!--------- PRICING PLANS SECTION START --------->
-  <section id="pricing">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 m-auto">
-          <div class="common-heading text-center">
-            <h2 data-aos="fade-up" data-aos-duration="1500">
-              Pricing plans!
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              A Private Limited is the most popular type of partnership Malta.
-              The limited liability is, in fact, the only type of company
-              allowed by Companies.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row pricing-path-top">
-        <div class="col-lg-4">
-          <div class="pricing-box" data-aos="fade-right" data-aos-duration="3000">
-            <h2>Basic</h2>
-            <div class="pricing-text">
-              <h4><span class="dollor">$</span><span>09</span> /month</h4>
-              <h5>17 to 19 user</h5>
-              <p>For most businesses that want to</p>
-              <p class="p">optimize web query.</p>
-            </div>
-            <div class="pricing-buttom">
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>2 App and project</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>400 Gb/s storange</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>Free coustom domain</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-xmark cross-sign"></i>
-                <p>Chat Support</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-xmark cross-sign"></i>
-                <p>No transaction fees</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-xmark cross-sign"></i>
-                <p>Unlimited Storage</p>
-              </div>
-              <div class="pricing-btn">
-                <a href="#">
-                  <i class="fa-solid fa-check-double"></i>
-                  Buy Now
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-box" data-aos="fade-up" data-aos-duration="1500">
-            <h2>Startup</h2>
-            <div class="pricing-text pricing-text-bg">
-              <h4><span class="dollor">$</span><span>19</span> /month</h4>
-              <h5>20 to 40 user</h5>
-              <p>For most businesses that want to</p>
-              <p class="p">optimize web query.</p>
-            </div>
-            <div class="pricing-buttom">
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>2 App and project</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>800 Gb/s storange</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>Free coustom domain</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>Chat Support</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-xmark cross-sign"></i>
-                <p>No transaction fees</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-xmark cross-sign"></i>
-                <p>Unlimited Storage</p>
-              </div>
-              <div class="pricing-btn">
-                <a href="#">
-                  <i class="fa-solid fa-check-double"></i>
-                  Buy Now
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-box" data-aos="fade-left" data-aos-duration="3000">
-            <h2>Enterprise</h2>
-            <div class="pricing-text">
-              <h4><span class="dollor">$</span><span>29</span> /month</h4>
-              <h5>17 to 19 user</h5>
-              <p>For most businesses that want to</p>
-              <p class="p">optimize web query.</p>
-            </div>
-            <div class="pricing-buttom">
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>2 App and project</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>800 Gb/s storange</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>Free coustom domain</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>Chat Support</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>No transaction fees</p>
-              </div>
-              <div class="pricing-items">
-                <i class="fa-regular fa-circle-check"></i>
-                <p>Unlimited Storage</p>
-              </div>
-              <div class="pricing-btn">
-                <a href="#">
-                  <i class="fa-solid fa-check-double"></i>
-                  Buy Now
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!---------- PRICING PLANS SECTION END ---------->
-
-  <!---------- SUBSCRIPTION SECTION START ---------->
-  <section id="subscription">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center color-white">
-            <h2 data-aos="fade-up" data-aos-duration="1500">
-              Subscribe to get updates
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              By subscribing you will get newsleter, promotions adipisicing
-              elit. Architecto beatae, asperiores tempore repudiandae saepe
-              aspernatur unde voluptate sapiente quia ex.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row sub-input">
-        <div class="col-lg-6 m-auto" data-aos="fade-up" data-aos-duration="3000">
-          <input type="email" class="form-control form-input subscription" placeholder="Enter your email"
-            id="exampleInputEmail1" aria-describedby="emailHelp" />
-          <button type="submit" class="btn btn-primary contact-btn btn-style extra-btn">
-            SUBSCRIBE NOW
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!---------- SUBSCRIPTION SECTION END ---------->
-
-  <!---------- TEAM SECTION START ---------->
-  <section id="team">
-    <div class="container team-arrow-btn">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center">
-            <h2 data-aos="fade-up" data-aos-duration="1500">
-              Our Team Members!
-            </h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              A Private Limited is the most popular type of partnership Malta.
-              The limited liability is, in fact, the only type of company
-              allowed by Companies.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row team-member-wrapper" data-aos="fade-up" data-aos-duration="2000">
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/faysal.png" alt="faysal" />
-            </picture>
-            <h3>Faysal Hossain</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/munna.png" alt="munna" />
-            </picture>
-            <h3>Munna Hassan</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/tonni.png" alt="tonni" />
-            </picture>
-            <h3>Tonni Khatun</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/eyamin.png" alt="eyamin" />
-            </picture>
-            <h3>Eyamin Biswas</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/rima.png" alt="rima" />
-            </picture>
-            <h3>Rima Khatun</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/sadman.png" alt="sadman" />
-            </picture>
-            <h3>Sadman Ahmed</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/marufa.png" alt="marufa" />
-            </picture>
-            <h3>Marufa Khatun</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/moshiur.png" alt="moshiur" />
-            </picture>
-            <h3>Moshiur Rahman</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/akash.png" alt="akash" />
-            </picture>
-            <h3>Akash Islam</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/tanvir.png" alt="tanvir" />
-            </picture>
-            <h3>Tanvir Ahmed</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="team-item-box text-center">
-            <picture>
-              <img src="images/tonmoy.png" alt="tonmoy" />
-            </picture>
-            <h3>Tonmoy Ahmed</h3>
-            <p>Web Designer</p>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="arrow-icon">
-        <i class="fa-solid fa-angle-left left"></i>
-        <i class="fa-solid fa-angle-right right"></i>
-      </div>
-    </div>
-  </section>
-  <!---------- TEAM SECTION END ---------->
-
-  <!---------- CONTACT SECTION START ---------->
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 m-auto">
-          <div class="common-heading text-center color-white">
-            <h2 data-aos="fade-up" data-aos-duration="1500">Get In Touch!</h2>
-            <p data-aos="fade-up" data-aos-duration="2000">
-              A Private Limited is the most popular type of partnership Malta.
-              The limited liability is, in fact, the only type of company
-              allowed by Companies.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row row-contact">
-        <div class="col-lg-6" data-aos="fade-right" data-aos-duration="3000">
-          <div class="contact-form-left">
-            <div class="contactbtn location">
-              <div class="location-heading d-flex">
-                <i class="fa-solid fa-location-dot"></i>
-                <h4>Office Location</h4>
-              </div>
-              <p>Address: 4th Floor House, Momtaz Plaza</p>
-              <p>7 Rd No 4, Dhaka 1205</p>
-              <p>Bangladesh</p>
-            </div>
-            <div class="contactbtn location">
-              <div class="location-heading d-flex">
-                <i class="fa-solid fa-phone-volume"></i>
-                <h4>Phone Number</h4>
-              </div>
-              <p><a href="tel:+8801990779811">+8801990779811</a></p>
-              <p><a href="tel:+8801990779757">+8801990779757</a></p>
-            </div>
-            <div class="contactbtn location">
-              <div class="location-heading d-flex">
-                <i class="fa-solid fa-envelope"></i>
-                <h4>Email Address</h4>
-              </div>
-              <p><a href=":info@brightskill.com">info@brightskill.com</a></p>
-            </div>
-            <div class="contactbtn location">
-              <div class="location-heading d-flex">
-                <i class="fa-regular fa-clock"></i>
-                <h4>Working Hours</h4>
-              </div>
-              <p>09:00AM to 06:00PM</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <form data-aos="fade-left" data-aos-duration="3000">
-            <div class="mb-3">
-              <label for="exampleInputName1" class="form-label">Name</label>
-              <input type="text" class="form-control form-input" placeholder="Enter your name" id="exampleInputName1"
-                aria-describedby="nameHelp" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control form-input" placeholder="Enter your email" id="exampleInputEmail1"
-                aria-describedby="emailHelp" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputName1" class="form-label">Password</label>
-              <input type="password" class="form-control form-input" placeholder="Enter your subject"
-                id="exampleInputName1" aria-describedby="nameHelp" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Messages</label>
-              <textarea class="form-control" placeholder="Enter your message..." id="exampleFormControlTextarea1"
-                rows="7"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary contact-btn">
-              Submit
+        <div class="row sub-input">
+          <div
+            class="col-lg-6 m-auto"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <input
+              type="email"
+              class="form-control form-input subscription"
+              placeholder="Enter your email"
+              id="exampleInputEmail"
+            />
+            <button
+              type="submit"
+              class="btn btn-primary contact-btn btn-style extra-btn"
+            >
+              SUBSCRIBE NOW
             </button>
-          </form>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--------- CONTACT SECTION END --------->
+    </section>
+    <!-- SUBSCRIPTION SECTION END -->
 
-  <!--------- FOOTER SECTION START --------->
-  <section id="footer">
-    <div class="container">
-      <div class="row for-mobile" data-aos="fade-up" data-aos-duration="2000">
-        <div class="col-lg-3 col-sm-6">
-          <div class="footer-box">
-            <img src="images/logo.svg" alt="" />
-            <p>
-              Bright Skills is one of the best e-learning skill development
-              platform in Bangladesh. We are committed to eliminating
-              unemployment from the country and creating global human
-              resources through skill development.
-            </p>
-            <div class="footer-left-text d-flex">
-              <h6>Follow us:</h6>
-              <div class="socials">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <!-- TEAM SECTION START -->
+    <section id="team">
+      <div class="container team-arrow-btn">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div class="common-heading text-center">
+              <h2 data-aos="fade-up" data-aos-duration="1500">
+                Our Team Members!
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                A Private Limited is the most popular type of partnership Malta.
+                The limited liability is, in fact, the only type of company
+                allowed by Companies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row team-member-wrapper"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/faysal.png" alt="faysal" />
+              </picture>
+              <h3>Faysal Hossain</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/munna.png" alt="munna" />
+              </picture>
+              <h3>Munna Hassan</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/tonni.png" alt="tonni" />
+              </picture>
+              <h3>Tonni Khatun</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/eyamin.png" alt="eyamin" />
+              </picture>
+              <h3>Eyamin Biswas</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/rima.png" alt="rima" />
+              </picture>
+              <h3>Rima Khatun</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/sadman.png" alt="sadman" />
+              </picture>
+              <h3>Sadman Ahmed</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/marufa.png" alt="marufa" />
+              </picture>
+              <h3>Marufa Khatun</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/moshiur.png" alt="moshiur" />
+              </picture>
+              <h3>Moshiur Rahman</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/akash.png" alt="akash" />
+              </picture>
+              <h3>Akash Islam</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/tanvir.png" alt="tanvir" />
+              </picture>
+              <h3>Tanvir Ahmed</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-item-box text-center">
+              <picture>
+                <img src="images/tonmoy.png" alt="tonmoy" />
+              </picture>
+              <h3>Tonmoy Ahmed</h3>
+              <p>Web Designer</p>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="footer-box">
-            <h3>Course Category</h3>
-            <div class="ft-link">
-              <span><a href="#">3D visualization</a></span>
-              <span><a href="#">Web programming</a></span>
-              <span><a href="#">Soft skills</a></span>
-              <span><a href="#">Design</a></span>
-              <span><a href="#">Digital Marketing</a></span>
-              <span><a href="#">Robotics Automation</a></span>
+        <div class="arrow-icon">
+          <i class="fa-solid fa-angle-left left"></i>
+          <i class="fa-solid fa-angle-right right"></i>
+        </div>
+      </div>
+    </section>
+    <!-- TEAM SECTION END  -->
+
+    <!-- CONTACT SECTION START  -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 m-auto">
+            <div class="common-heading text-center color-white">
+              <h2 data-aos="fade-up" data-aos-duration="1500">Get In Touch!</h2>
+              <p data-aos="fade-up" data-aos-duration="2000">
+                A Private Limited is the most popular type of partnership Malta.
+                The limited liability is, in fact, the only type of company
+                allowed by Companies.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="footer-box">
-            <h3>Required links</h3>
-            <div class="ft-link">
-              <a href="#">Find the certificate</a>
-              <a href="#">Blog</a>
-              <a href="#">Student feedback</a>
-              <a href="#">Certification</a>
-              <a href="#">contact us</a>
+        <div class="row row-contact">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="3000">
+            <div class="contact-form-left">
+              <div class="contactbtn location">
+                <div class="location-heading d-flex">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h4>Office Location</h4>
+                </div>
+                <p>Address: 4th Floor House, Momtaz Plaza</p>
+                <p>7 Rd No 4, Dhaka 1205</p>
+                <p>Bangladesh</p>
+              </div>
+              <div class="contactbtn location">
+                <div class="location-heading d-flex">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <h4>Phone Number</h4>
+                </div>
+                <p><a href="tel:+8801990779811">+8801990779811</a></p>
+                <p><a href="tel:+8801990779757">+8801990779757</a></p>
+              </div>
+              <div class="contactbtn location">
+                <div class="location-heading d-flex">
+                  <i class="fa-solid fa-envelope"></i>
+                  <h4>Email Address</h4>
+                </div>
+                <p><a href=":info@brightskill.com">info@brightskill.com</a></p>
+              </div>
+              <div class="contactbtn location">
+                <div class="location-heading d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <h4>Working Hours</h4>
+                </div>
+                <p>09:00AM to 06:00PM</p>
+              </div>
             </div>
           </div>
+
+          <div class="col-lg-6">
+            <form data-aos="fade-left" data-aos-duration="3000">
+              <div class="mb-3">
+                <label for="exampleInputName2" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control form-input"
+                  placeholder="Enter your name"
+                  id="exampleInputName2"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control form-input"
+                  placeholder="Enter your email"
+                  id="exampleInputEmail1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputName4" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control form-input"
+                  placeholder="Enter your subject"
+                  id="exampleInputName4"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Messages</label
+                >
+                <textarea
+                  class="form-control"
+                  placeholder="Enter your message..."
+                  id="exampleFormControlTextarea1"
+                  rows="7"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary contact-btn">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="footer-box">
-            <h3>legal</h3>
-            <div class="ft-link">
-              <a href="#">Terms of Use</a>
-              <a href="#">FAQ</a>
-              <a href="#">Terms of Use</a>
-              <a href="#">about us</a>
-              <a href="#">contact</a>
+      </div>
+    </section>
+    <!-- CONTACT SECTION END  -->
+
+    <!-- FOOTER SECTION START  -->
+    <section id="footer">
+      <div class="container">
+        <div class="row for-mobile" data-aos="fade-up" data-aos-duration="2000">
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-box">
+              <img src="images/logo.svg" alt="logo" />
+              <p>
+                Bright Skills is one of the best e-learning skill development
+                platform in Bangladesh. We are committed to eliminating
+                unemployment from the country and creating global human
+                resources through skill development.
+              </p>
+              <div class="footer-left-text d-flex">
+                <h6>Follow us:</h6>
+                <div class="socials">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-box">
+              <h3>Course Category</h3>
+              <div class="ft-link">
+                <span><a href="#">3D visualization</a></span>
+                <span><a href="#">Web programming</a></span>
+                <span><a href="#">Soft skills</a></span>
+                <span><a href="#">Design</a></span>
+                <span><a href="#">Digital Marketing</a></span>
+                <span><a href="#">Robotics Automation</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-box">
+              <h3>Required links</h3>
+              <div class="ft-link">
+                <a href="#">Find the certificate</a>
+                <a href="#">Blog</a>
+                <a href="#">Student feedback</a>
+                <a href="#">Certification</a>
+                <a href="#">contact us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer-box">
+              <h3>legal</h3>
+              <div class="ft-link">
+                <a href="#">Terms of Use</a>
+                <a href="#">FAQ</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">about us</a>
+                <a href="#">contact</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--------- FOOTER SECTION END --------->
+    </section>
+    <!-- FOOTER SECTION END -->
 
-  <!--------- FOOTER BOTTOM START --------->
-  <section id="footer-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 m-auto">
-          <div class="footer-bottom text-center">
-            <p>All credit goes to by @ <span> (IAW-2203) </span>Team</p>
+    <!-- FOOTER BOTTOM START -->
+    <footer id="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 m-auto">
+            <div class="footer-bottom text-center">
+              <p>All credit goes to by @ <span> (IAW-2203) </span>Team</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--------- FOOTER BOTTOM END --------->
+    </footer>
+    <!-- FOOTER BOTTOM END  -->
 
-  <!--------- BOTTOM TO TOP BUTTON --------->
-  <button id="button"></button>
-  <!--------- BOTTOM TO TOP BUTTON --------->
+    <!-- BOTTOM TO TOP BUTTON  -->
+    <button id="button"></button>
+    <!-- BOTTOM TO TOP BUTTON  -->
 
-
-
-
-
-
-
-
-
-
-  <script src="js/jquery-1.12.4.min.js"></script>
-  <script src="js/slick.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

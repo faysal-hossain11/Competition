@@ -128,8 +128,6 @@ $(document).ready(function () {
 
 // HEADER SECTION START
 $(window).scroll(function () {
-  console.log($(window).scrollTop());
-
   if ($(window).scrollTop() > 300) {
     $(".menu").addClass("nav-scroll");
   } else {
@@ -161,4 +159,6 @@ btn.on("click", function (e) {
 });
 // BOTTOM TO TOP BUTTON CODE:--
 
-
+$(window).on("load", function () {
+  $(".preloader").delay(300).fadeOut(300);
+});
